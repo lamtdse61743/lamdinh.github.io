@@ -3,6 +3,14 @@ layout: default
 title: Lam Dinh
 ---
 
+<div style="text-align: center; margin-bottom: 30px;">
+  <h1 style="margin-bottom: 0;">Lam Dinh</h1>
+  <p style="margin-top: 5px;">AI & ML Engineer | Smart Surveillance | Deep Learning</p>
+  <a href="https://github.com/lamtdse61743/lamdinh.github.io">View the Project on GitHub</a>
+</div>
+
+<!-- Main content continues here -->
+
 <table>
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
