@@ -6,13 +6,13 @@ title: Lam Dinh
 <table>
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
-      <img src="assets/profile.jpg" width="200" style="border-radius: 12px;">
+      <img src="assets/profile.jpg" width="180" style="border-radius: 12px;">
     </td>
     <td>
       <h1>Trinh Dinh Lam</h1>
       <p>
-        Hi, I'm <strong>Lam</strong>! 👋 <br>
-        I'm a postgraduate AI & Machine Learning student at Fanshawe College with a background in Software Engineering. I enjoy building smart surveillance systems, visual recognition models, and intelligent interfaces.
+        Hi, I’m <strong>Lam</strong>! 👋<br>
+        I’m a postgraduate AI & Machine Learning student at Fanshawe College with a background in Software Engineering. I enjoy building smart surveillance systems, visual recognition models, and intelligent interfaces.
       </p>
       <p>
         Before that, I earned my Bachelor's in Software Engineering at FPT University in Vietnam 🇻🇳.
@@ -28,20 +28,6 @@ title: Lam Dinh
     </td>
   </tr>
 </table>
-
-
-
-
-# Trinh Dinh Lam
-
-Hi, I'm **Lam**! 👋  
-I'm a postgraduate AI & Machine Learning student at Fanshawe College with a background in Software Engineering. I enjoy building smart surveillance systems, visual recognition models, and intelligent interfaces.
-
-Before that, I earned my Bachelor's in Software Engineering at FPT University in Vietnam 🇻🇳.
-
-I’m passionate about deploying AI in real-world settings — whether it’s detecting suspicious behavior in CCTV or classifying plants with CNN attention modules.
-
-👉 [GitHub](https://github.com/lamtdse61743) • [LinkedIn](https://www.linkedin.com/in/lam-dinh-9104b6306/) • [CV (PDF)](cv.pdf)
 
 ---
 
