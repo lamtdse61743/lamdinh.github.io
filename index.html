@@ -45,6 +45,11 @@
       min-width: 250px;
     }
 
+    .links {
+      margin-top: 20px;
+      text-align: right;
+    }
+
     .section {
       margin-top: 30px;
     }
@@ -67,12 +72,32 @@
     .section h3 {
       color: #0366d6;
       margin-bottom: 10px;
+      font-size: 22px;
     }
 
     .bold {
       font-weight: bold;
       color: #111;
     }
+
+    .edu-entry {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .edu-entry p {
+      margin: 4px 0;
+    }
+
+    .school {
+      font-weight: bold;
+    }
+
+    .gpa {
+      font-weight: bold;
+    }
+
   </style>
 </head>
 <body>
@@ -96,11 +121,11 @@
         I’m passionate about exploring how AI can transform the way we interact with the world — whether it’s making systems smarter, automating tasks, or uncovering insights from data. 
         I enjoy learning about new tools, experimenting with innovative ideas, and continuously improving my skills to grow as a developer and engineer.
       </p>
-      <p>
+      <div class="links">
         <a href="https://github.com/lamtdse61743">GitHub</a> • 
         <a href="https://linkedin.com/in/lam-dinh-9104b6306">LinkedIn</a> • 
         <a href="https://drive.google.com/file/d/1I4-9Iwuu5IOhaa5IYBYmqGQou_Srd4UG/view?usp=sharing" target="_blank">Resume</a>
-      </p>
+      </div>
     </div>
   </div>
 
@@ -118,16 +143,19 @@
 
   <div class="section">
     <h3>Academic Experience</h3>
-    <p>
-      <span class="bold">Postgraduate Certificate</span> — Artificial Intelligence and Machine Learning  
-      <br>Fanshawe College, Canada (Aug 2024 – Present)  
-      <br><span class="bold">GPA:</span> 4.195 / 4.2
-    </p>
-    <p>
-      <span class="bold">Bachelor of Software Engineering</span>  
-      <br>FPT University 🇻🇳 (Aug 2015 – Aug 2019)  
-      <br><span class="bold">GPA:</span> 3.5 / 4.0
-    </p>
+
+    <div class="edu-entry">
+      <div class="school">Fanshawe College, Canada (Aug 2024 – Present)</div>
+      <div class="gpa">GPA: 4.195 / 4.2</div>
+    </div>
+    <p>Postgraduate Certificate — Artificial Intelligence and Machine Learning</p>
+
+    <div class="edu-entry">
+      <div class="school">FPT University 🇻🇳 (Aug 2015 – Aug 2019)</div>
+      <div class="gpa">GPA: 3.5 / 4.0</div>
+    </div>
+    <p>Bachelor of Software Engineering</p>
+
   </div>
 
 </body>
