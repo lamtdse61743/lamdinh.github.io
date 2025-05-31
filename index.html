@@ -8,7 +8,7 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       max-width: 800px;
       margin: auto;
-      padding: 40px;
+      padding: 30px;
       line-height: 1.6;
       background-color: #fafafa;
       color: #111;
@@ -16,8 +16,13 @@
 
     .header {
       text-align: center;
-      margin-bottom: 40px;
-      margin-top: 60px;
+      margin-top: 40px;
+      margin-bottom: 25px;
+    }
+
+    .header h1 {
+      color: #0366d6;
+      margin-bottom: 10px;
     }
 
     .profile {
@@ -33,7 +38,6 @@
       border-radius: 12px;
       object-fit: cover;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      margin-top: 5px;
     }
 
     .profile-text {
@@ -41,12 +45,12 @@
       min-width: 250px;
     }
 
-    .about {
+    .section {
       margin-top: 30px;
     }
 
     hr {
-      margin: 40px 0;
+      margin: 30px 0;
       border: none;
       border-top: 1px solid #ccc;
     }
@@ -60,9 +64,14 @@
       text-decoration: underline;
     }
 
-    .label {
+    .section h3 {
       color: #0366d6;
-      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .bold {
+      font-weight: bold;
+      color: #111;
     }
   </style>
 </head>
@@ -79,7 +88,7 @@
     <img src="assets/profile.jpg" alt="Lam Dinh">
     <div class="profile-text">
       <p>
-        Hi, I’m <span class="label">Lam</span>!<br>
+        Hi, I’m <span class="bold">Lam</span>!<br>
         I’m a postgraduate student in Artificial Intelligence and Machine Learning at Fanshawe College, with a Bachelor's degree in Software Engineering from FPT University 🇻🇳. 
         My academic journey has helped me develop strong problem-solving skills and a deep interest in building technologies that make an impact.
       </p>
@@ -97,27 +106,27 @@
 
   <hr>
 
-  <div class="about">
-    <h3 class="label">About Me</h3>
-    <p><span class="label">Graduate Student</span> — Artificial Intelligence at 
+  <div class="section">
+    <h3>About Me</h3>
+    <p><span class="bold">Graduate Student</span> — Artificial Intelligence at 
       <a href="https://www.fanshawec.ca" target="_blank">Fanshawe College</a><br>
-    <span class="label">Email:</span> lamtdse61743 [at] gmail.com</p>
-    <p><span class="label">Research Interests:</span> Machine Learning, Computer Vision, Surveillance AI, Attention Mechanisms</p>
+    <span class="bold">Email:</span> lamtdse61743 [at] gmail.com</p>
+    <p><span class="bold">Research Interests:</span> Machine Learning, Computer Vision, Surveillance AI, Attention Mechanisms</p>
   </div>
 
   <hr>
 
-  <div class="about">
-    <h3 class="label">Academic Experience</h3>
+  <div class="section">
+    <h3>Academic Experience</h3>
     <p>
-      <span class="label">Postgraduate Certificate</span> — Artificial Intelligence and Machine Learning  
+      <span class="bold">Postgraduate Certificate</span> — Artificial Intelligence and Machine Learning  
       <br>Fanshawe College, Canada (Aug 2024 – Present)  
-      <br><span class="label">GPA:</span> 4.195 / 4.2
+      <br><span class="bold">GPA:</span> 4.195 / 4.2
     </p>
     <p>
-      <span class="label">Bachelor of Software Engineering</span>  
+      <span class="bold">Bachelor of Software Engineering</span>  
       <br>FPT University 🇻🇳 (Aug 2015 – Aug 2019)  
-      <br><span class="label">GPA:</span> 3.5 / 4.0
+      <br><span class="bold">GPA:</span> 3.5 / 4.0
     </p>
   </div>
 
