@@ -1,49 +1,70 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lam Dinh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px;
+    }
 
-<div style="text-align: center; margin-bottom: 30px;">
-  <h1 style="margin-bottom: 0;">Lam Dinh</h1>
-  <p style="margin-top: 5px;">AI & ML Engineer | Smart Surveillance | Deep Learning</p>
-  <a href="https://github.com/lamtdse61743/lamdinh.github.io">View the Project on GitHub</a>
-</div>
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
 
+    .header h1 {
+      margin-bottom: 10px;
+    }
 
-<!-- Main content continues here -->
+    .profile {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
 
-<table>
-  <tr>
-    <td style="vertical-align: top; padding-right: 20px;">
-      <img src="assets/profile.jpg" width="180" style="border-radius: 12px; transform: scaleX(-1);">
-    </td>
-    <td>
-      <h1>Trinh Dinh Lam</h1>
-      <p>
-        Hi, I’m <strong>Lam</strong>! 👋<br>
-        I’m a postgraduate AI & Machine Learning student at Fanshawe College with a background in Software Engineering. I enjoy building smart surveillance systems, visual recognition models, and intelligent interfaces.
-      </p>
-      <p>
-        Before that, I earned my Bachelor's in Software Engineering at FPT University in Vietnam 🇻🇳.
-      </p>
-      <p>
-        I’m passionate about deploying AI in real-world settings — whether it’s detecting suspicious behavior in CCTV or classifying plants with CNN attention modules.
+    .profile img {
+      width: 150px;
+      border-radius: 12px;
+    }
+
+    .about {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Lam Dinh</h1>
+    <p>AI & ML Engineer | Smart Surveillance | Deep Learning</p>
+    <a href="https://github.com/lamtdse61743/lamdinh.github.io">View Project on GitHub</a>
+  </div>
+
+  <div class="profile">
+    <img src="assets/profile.jpg" alt="Lam Dinh">
+    <div>
+      <h2>Trinh Dinh Lam</h2>
+      <p>Hi, I’m <strong>Lam</strong>! 👋<br>
+        I’m a postgraduate AI & Machine Learning student at Fanshawe College...  
       </p>
       <p>
         👉 <a href="https://github.com/lamtdse61743">GitHub</a> • 
-        <a href="https://www.linkedin.com/in/lam-dinh-9104b6306/">LinkedIn</a> • 
+        <a href="https://linkedin.com/in/lam-dinh-9104b6306">LinkedIn</a> • 
         <a href="cv.pdf">CV (PDF)</a>
       </p>
-    </td>
-  </tr>
-</table>
+    </div>
+  </div>
 
----
+  <div class="about">
+    <h3>About Me</h3>
+    <p><strong>Graduate Student</strong> – Fanshawe College<br>
+    <strong>Email:</strong> lamtdse61743 [at] gmail.com</p>
+    <p><strong>Research Interests:</strong> Machine Learning, Surveillance AI, Attention Mechanisms</p>
+  </div>
 
-## About Me
-
-**Graduate Student** — Artificial Intelligence at Fanshawe College  
-**Location:** Ontario, Canada  
-**Email:** lamtdse61743 [at] gmail.com
-
-**Research Interests:**  
-Machine Learning • Computer Vision • Intelligent Surveillance • Attention Mechanisms • Neural Networks
+</body>
+</html>

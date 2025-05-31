@@ -1,9 +1,2 @@
 title: ""
 description: ""
-theme: jekyll-theme-minimal
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      stylesheets: [assets/style.css]
