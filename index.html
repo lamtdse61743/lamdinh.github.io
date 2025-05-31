@@ -24,7 +24,7 @@
       display: flex;
       align-items: flex-start;
       gap: 20px;
-      flex-wrap: wrap;
+      flex-wrap: nowrap; /* don't wrap unless absolutely needed */
     }
 
     .profile img {
@@ -35,6 +35,12 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       margin-top: 5px;
     }
+
+    .profile-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
 
     .about {
       margin-top: 30px;
@@ -72,7 +78,7 @@
 
   <div class="profile">
     <img src="assets/profile.jpg" alt="Lam Dinh">
-    <div>
+    <div class="profile-text">
       <p>
         Hi, I’m <span class="label">Lam</span>!<br>
         I’m a postgraduate student in Artificial Intelligence and Machine Learning at Fanshawe College, with a Bachelor's degree in Software Engineering from FPT University 🇻🇳. 
@@ -89,6 +95,7 @@
       </p>
     </div>
   </div>
+  
 
   <hr>
 
