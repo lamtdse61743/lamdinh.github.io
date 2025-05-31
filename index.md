@@ -6,7 +6,7 @@ title: Lam Dinh
 <table>
   <tr>
     <td style="vertical-align: top; padding-right: 20px;">
-      <img src="assets/profile.jpg" width="180" style="border-radius: 12px;">
+      <img src="assets/profile.jpg" width="300" style="border-radius: 12px;">
     </td>
     <td>
       <h1>Trinh Dinh Lam</h1>
