@@ -3,7 +3,8 @@ layout: default
 title: Lam Dinh
 ---
 
-<img src="assets/profile.jpg" style="border-radius: 12px;">
+<img src="assets/profile.jpg" width="300" style="border-radius: 12px; display: block; margin: 0 auto;">
+
 
 
 
