@@ -7,4 +7,6 @@
   .btn {
     display: none;  /* Hides "View on GitHub" button */
   }
-  
+  header {
+    display: none;
+  }  
