@@ -3,7 +3,7 @@ layout: default
 title: Lam Dinh
 ---
 
-<img src="assets/profile.jpeg" width="200" style="float: left; margin-right: 20px; border-radius: 12px;">
+<img src="assets/profile.jpg" width="200" style="float: left; margin-right: 20px; border-radius: 12px;">
 
 
 # Trinh Dinh Lam
